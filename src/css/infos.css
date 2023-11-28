@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #9d1b23;
+  position: fixed;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+header .logo {
+  padding: 20px 0 0 0;
+  justify-content: center;
+}
+
+header .texte {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .socials {
+  padding: 150px 0 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #f5f5f5;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header .texte a:hover {
+  text-decoration: underline;
+  font-weight: 1000;
+}
+
+header a.active {
+  text-decoration: underline;
+  font-weight: 1000;
+}
+
+/* ------------ */
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 20%;
+  padding-left: 10px;
+  background-color: #1e1e2e;
+}
+
+.content h2 {
+  color: #f5f5f5;
+  font-weight: bolder;
+}
+
+.content p {
+  color: #f5f5f5;
+  max-width: 50%;
+}
+
+.content img#carte {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.content img#interdit {
+  position: absolute;
+  top: 20px;
+  left: 600px;
+}

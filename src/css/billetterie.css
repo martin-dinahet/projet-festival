@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(../../images/concert-soleil.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #9d1b23;
+  position: fixed;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  padding: 20px 0 0 0;
+  justify-content: center;
+}
+
+.texte {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socials {
+  padding: 150px 0 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #f5f5f5;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header .texte a:hover {
+  text-decoration: underline;
+  font-weight: 1000;
+}
+
+header a.active {
+  text-decoration: underline;
+  font-weight: 1000;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 330px 330px;
+  grid-gap: 45px;
+  margin-left: 23%;
+  margin-right: 3%;
+  opacity: 80%;
+}
+
+.bouton{
+  background-color: #f5f5f5;
+  margin-top: 50px;
+  margin-left: 150px;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+}
+
+.bouton a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.box h1{
+  display: flex;
+  justify-content: center;
+}
+
+.box li{
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.one {
+  background-color: #9d1b23;
+}
+
+
+.two {
+  background-color: #9d1b23;
+}
+
+.three {
+  background-color:#9d1b23;
+}
+
+.four {
+  background-color: #9d1b23;
+}
+
+.box {
+  border-radius: 50px;
+}
