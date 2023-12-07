@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #1a1e23;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #9d1b23;
+  position: fixed;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+header .logo {
+  padding: 20px 0 0 0;
+  justify-content: center;
+}
+
+header .texte {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .socials {
+  padding: 150px 0 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #f5f5f5;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header .texte a:hover {
+  text-decoration: underline;
+  font-weight: 1000;
+}
+
+header a.active {
+  text-decoration: underline;
+  font-weight: 1000;
+}
+
+/*  */
+
+main {
+    margin-left: 20%;
+}
+
+.encadre {
+    display: flex;
+    flex-direction: row;
+}
+
+.nom {
+    background: linear-gradient(#9d1b23, #1a1e23);
+    height: 250px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #f5f5f5;
+    font-weight: bolder;
+}
+
+.photo {
+    background-color: #1a1e23;
+    width: 1000px;
+    background-image: url("./images-artiste/louiseattaque.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contenu {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.bloc {
+  background-color: #9d1b23;
+  width: 500px;
+  margin-left: 20px;
+  padding: 10px 10px 0 10px;
+  border-radius: 10px;
+}

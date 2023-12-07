@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #1a1e23;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #9d1b23;
+  position: fixed;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+header .logo {
+  padding: 20px 0 0 0;
+  justify-content: center;
+}
+
+header .texte {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .socials {
+  padding: 150px 0 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #f5f5f5;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header .texte a:hover {
+  text-decoration: underline;
+  font-weight: 1000;
+}
+
+header a.active {
+  text-decoration: underline;
+  font-weight: 1000;
+}
+
+/* ------------ */
+
+.content {
+  margin-left: 20%;
+  height: 100%;
+  width: 80%;
+
+}
+.content video {
+  margin: 0 60px;
+  width: 1100px;
+}
+
+
+.content .date {
+  background-color: #9d1b23;
+  color: #f5f5f5;
+  margin-left: 30px;
+  padding: 15px;
+  border-radius: 50px;
+  width: 200px;
+}
+
+.content-2 {
+  position: absolute;
+  margin-left: 20%;
+  max-height: 80%;
+  background-color: #1a1e23;
+}
+
+.content-2 .article-1 {
+  position: absolute;
+  top: 10vh;
+  display: flex;
+  background-color: #f5f5f5;
+  flex-direction: row;
+  position: relative;
+  margin: 0 60px 0 60px;
+}
+
+.content-2 .article-2 {
+  position: absolute;
+  top: 20vh;
+  display: flex;
+  background-color: #f5f5f5;
+  flex-direction: row;
+  position: relative;
+  margin: 10px 60px 200px 60px;
+}
+
+.content-2 .article-content {
+  padding: 0 10px 0 10px;
+}
+
+.content-2 .article-1 h2 {
+  text-decoration: underline;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.content-2 .article-2 h2 {
+  text-decoration: underline;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.content-2 .article-1 p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.content-2 .article-2 p {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.content-2 img {
+  width: 300px;
+  height: 60%;
+}
